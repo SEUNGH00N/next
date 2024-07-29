@@ -1,0 +1,44 @@
+/* styles/Home.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 2rem;
+}
+
+.title {
+  margin: 0;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.nav {
+  margin-top: 2rem;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.navItem {
+  margin: 0 1rem;
+}
+
+.navLink {
+  font-size: 1.5rem;
+  color: #0070f3;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navLink:hover,
+.navLink:focus,
+.navLink:active {
+  text-decoration: underline;
+}
